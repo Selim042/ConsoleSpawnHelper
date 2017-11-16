@@ -1,0 +1,8 @@
+name: ConsoleSpawnHelper
+main: selim.consolespawnhelper.ConsoleSpawnHelper
+author: Selim_042
+version: 0.0.2
+commands:
+    csummon:
+        usage: /csummon <player> <entityname> [relX] [relY] [relZ]
+        description: Spawns a mob relative to the given player. Add 'r' before the coord to make it random with the number as an upper bound.
